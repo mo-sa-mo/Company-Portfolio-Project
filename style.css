@@ -12,6 +12,7 @@
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body {
   width: 100%;
@@ -380,3 +381,21 @@ body {
   margin-top: 5rem;
 }
 /* End Of Section 4 */
+.scoll-up-btn {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(50, 231, 255, 0.8);
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+.scoll-up-btn:hover {
+  background-color: #32e7ff;
+}
