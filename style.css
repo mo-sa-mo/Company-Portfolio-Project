@@ -14,7 +14,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-body {
+.container {
   width: 100%;
   overflow-x: hidden;
 }
@@ -399,3 +399,61 @@ body {
 .scoll-up-btn:hover {
   background-color: #32e7ff;
 }
+/* Responsive */
+@media (max-width: 1400px) {
+  .floating-bg {
+    top: -120vw;
+  }
+  .section-1-headding {
+    font-size: 4rem;
+    top: 15vw;
+    width: 70rem;
+  }
+  .navbar-link {
+    font-size: 1.5rem;
+  }
+  .logo {
+    top: 70%;
+  }
+  .logo i {
+    font-size: 10rem;
+  }
+  .section-headding {
+    font-size: 8rem;
+    margin-bottom: 10rem;
+  }
+  .section-2 {
+    height: auto;
+  }
+  .customers-wrapper {
+    flex-wrap: wrap;
+  }
+  .customer {
+    margin: 5rem 10rem;
+  }
+  .section-3 {
+    height: auto;
+  }
+  .team-wrapper {
+    flex-wrap: wrap;
+  }
+  .team-member {
+    margin: 5rem 10rem;
+  }
+  .form-container {
+    height: 60%;
+  }
+  .form-img {
+    display: none;
+  }
+  .contact-form {
+    transform: translateY(0);
+  }
+  .contact-form:hover {
+    transform: translateY(0);
+  }
+  .copyright {
+    margin: 5rem 0 4rem 0;
+  }
+}
+/* End Of Responsive */
